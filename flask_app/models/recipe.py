@@ -57,7 +57,7 @@ class Recipe:
         WHERE id=%(id)s
         ;"""
         result= connectToMySQL(cls.DB).query_db(query,data)
-        print("5555555555555555",result)
+        print("5555555555555555",result)#for testing query
         return result
 
 
