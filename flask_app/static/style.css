@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container,.container2{
+    padding:40px;
+    margin:50px auto 10px auto;
+    background-color:#b0d5f1;
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px #6e7478;
+    
+}
+#form,.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    width:100%;
+    
+}
+#form div,.login div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap:30px; */
+}
+input{
+    width:300px;
+    height:50px;
+}
+label{
+    width:150px;
+}
+.btn{
+    width:100%;
+}
+.addbtn{
+    width:100%;
+}
+.dashboard-header{
+    display: flex;
+    gap:50px;
+}
+.dashboard-header .btn{
+    width:200px;
+}
+.dashboard-header h1{
+    font-size: 22px;
+}
